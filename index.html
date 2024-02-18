@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .slide-area-inner {
+                animation: marquee 20s linear infinite;
+                animation-play-state: running;
+            }
+
+            @keyframes marquee {
+                    0% {
+                transform: translate3d(0%, 0, 0);
+            }
+
+            100% {
+                transform: translate3d(-50%, 0, 0);
+            }
+        }
+        .slide-area .slide-row{
+            display: flex;
+            flex-direction: row;
+            gap: 50px;
+        }
+        .slide-area .single-slide-item{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            white-space: nowrap;
+        }
+        .slide-area .single-slide-item img{
+            width: 50px;
+        }
+        .slide-area .single-slide-item h5{
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-area">
+        <div class="slide-area-inner">
+            <div class="slide-row">
+                <div class="single-slide-item">
+                    <div class="slide-image">
+                        <img src="./4A.2.gif" alt="">
+                    </div>
+                    <div class="side-content">
+                        <h5>This is the headding</h5>
+                    </div>
+                </div>
+                <div class="single-slide-item">
+                    <div class="slide-image">
+                        <img src="./4A.2.gif" alt="">
+                    </div>
+                    <div class="side-content">
+                        <h5>This is the headding</h5>
+                    </div>
+                </div>
+                <div class="single-slide-item">
+                    <div class="slide-image">
+                        <img src="./4A.2.gif" alt="">
+                    </div>
+                    <div class="side-content">
+                        <h5>This is the headding</h5>
+                    </div>
+                </div>
+                <div class="single-slide-item">
+                    <div class="slide-image">
+                        <img src="./4A.2.gif" alt="">
+                    </div>
+                    <div class="side-content">
+                        <h5>This is the headding</h5>
+                    </div>
+                </div>
+                <div class="single-slide-item">
+                    <div class="slide-image">
+                        <img src="./4A.2.gif" alt="">
+                    </div>
+                    <div class="side-content">
+                        <h5>This is the headding</h5>
+                    </div>
+                </div>
+                <div class="single-slide-item">
+                    <div class="slide-image">
+                        <img src="./4A.2.gif" alt="">
+                    </div>
+                    <div class="side-content">
+                        <h5>This is the headding</h5>
+                    </div>
+                </div>
+                <div class="single-slide-item">
+                    <div class="slide-image">
+                        <img src="./4A.2.gif" alt="">
+                    </div>
+                    <div class="side-content">
+                        <h5>This is the headding</h5>
+                    </div>
+                </div>
+                <div class="single-slide-item">
+                    <div class="slide-image">
+                        <img src="./4A.2.gif" alt="">
+                    </div>
+                    <div class="side-content">
+                        <h5>This is the headding</h5>
+                    </div>
+                </div>
+                <div class="single-slide-item">
+                    <div class="slide-image">
+                        <img src="./4A.2.gif" alt="">
+                    </div>
+                    <div class="side-content">
+                        <h5>This is the headding</h5>
+                    </div>
+                </div>
+                <div class="single-slide-item">
+                    <div class="slide-image">
+                        <img src="./4A.2.gif" alt="">
+                    </div>
+                    <div class="side-content">
+                        <h5>This is the headding</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
